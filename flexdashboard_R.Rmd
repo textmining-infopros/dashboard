@@ -66,6 +66,11 @@ library(ggplot2)
 #Load dataset from the github
 data <- read.csv("clustering_sample_data.csv")
 
+#Avoid invalid multiple string error with tolower()
+data[,sapply(data,is.character)] <- sapply(
+     data[,sapply(data,is.character)],
+     iconv,"WINDOWS-1252","UTF-8")
+
 #Create Document Term Matrix
 dtm <- CreateDtm(doc_vec = data$Abstract,
                  doc_names = data$S.No.,
