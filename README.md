@@ -33,7 +33,7 @@ the analysis:
     
       - Click
         **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?urlpath=rstudio)
-        to launch an interactive RStudio session in your web browser.
+        to launch an interactive [RStudio](https://rstudio.com/) session in your web browser.
         
        - Click
         **RMarkdown**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=flexdashboard_R.Rmd)
