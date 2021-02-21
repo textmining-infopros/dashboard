@@ -22,7 +22,7 @@ For this storyboard: ©2021 Lamba and Madhusdhan - all rights reserved, unless s
 ### Heatmap showing distances between documents
 
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\case_study_1a.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_1a.png)
 
 
 ***
@@ -30,14 +30,14 @@ The heatmap plot shows the distances between the documents.
 
 ### Clustered Heatmap showing distances between documents
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\case_study_1.2.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_1.2.png)
 
 ***
 The clustered heatmap plot shows another way to visualize the distances between the documents.
 
 ### Dendogram showing hierarchical clustering of documents
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\case_study_1.3.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_1.3.png)
 
 
 ***
@@ -172,7 +172,7 @@ Phylogenic structure is another way of visualizing the same results with differe
 
 ### Topic Modeling using Topic-Modeling-Toolkit (TMT)
 
-![Timeline showing the core topics in DESIDOC Journal of Library and Information Technology from 1981 to 2018 (©2019 Springer Nature, all rights reserved – reprinted with permission from Springer Nature, published in Lamba and Madhusudhan (2019))](images\\case_study_4a_4.png)
+![Timeline showing the core topics in DESIDOC Journal of Library and Information Technology from 1981 to 2018 (©2019 Springer Nature, all rights reserved – reprinted with permission from Springer Nature, published in Lamba and Madhusudhan (2019))](~/flexboard/images/case_study_4a_4.png)
 
 ***
 50 core topics were identified that fitted the corpus of 928 DJLIT research articles wherein only 29 topics were identified as unique. 
@@ -182,7 +182,7 @@ Phylogenic structure is another way of visualizing the same results with differe
 
 ### Topic Modeling using RapidMiner
 
-![Latent Dirichlet Allocation Topic and Word Result for PQDT Global ETDs during 2014-2018 (©2020 Cadernos BAD, all rights reserved – reprinted under Creative Commons CC BY license, published in Lamba and Madhusudhan (2020) )](images\\4a_5.png)
+![Latent Dirichlet Allocation Topic and Word Result for PQDT Global ETDs during 2014-2018 (©2020 Cadernos BAD, all rights reserved – reprinted under Creative Commons CC BY license, published in Lamba and Madhusudhan (2020) )](~/flexboard/images/4a_5.png)
 
 ***
 The results shows the topics assigned to the corpus of ETDs. 
@@ -193,7 +193,7 @@ The results shows the topics assigned to the corpus of ETDs.
 
 ### Method 1: Plotting top words using stm package
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\case_study_4c_1.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_4c_1.png)
 
 
 ***
@@ -201,7 +201,7 @@ The figure shows the results for 5 topics using Structural Topic Modeling (STM).
 
 ### Method 2: Plotting MAP histogram using stm package
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\case_study_4c_2.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_4c_2.png)
 
 
 ***
@@ -209,21 +209,21 @@ The figure shows second way of representing the results from Method 1.
 
 ### Method 3: Visualizing topic model using ggplot2
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\case_study_4c_6.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_4c_6.png)
 
 ***
 The figure shows third way of representing the results from Method 1 and 2.
 
 ### Method 4: Interactive Visualization
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\case_study_4c_8.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_4c_8.png)
 
 ***
 The figure shows fourth way of representing the results from Method 1, 2, and 3.
 
 ### Understanding topics through top 5 representative documents
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\4c_9.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/4c_9.png)
 
 ***
 The Table presents the result for top five representative ETDs for the modeled topics and are ranked according to their probability.
@@ -231,7 +231,7 @@ The Table presents the result for top five representative ETDs for the modeled t
 
 ### Topic correlation
 
-![©2021 Lamba and Madhusdhan - all rights reserved](images\\case_study_4c_7.png)
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_4c_7.png)
 
 ***
 The figure shows correlation between the topics using a network graph.
@@ -241,7 +241,7 @@ The figure shows correlation between the topics using a network graph.
 
 ### Network Text Analysis of Documents using Bibliometrix in R
 
-![Word Co-Occurrence Network (©2021 Lamba and Madhusdhan - all rights reserved)](images\\case_study_1.5.png)
+![Word Co-Occurrence Network (©2021 Lamba and Madhusdhan - all rights reserved)](~/flexboard/images/case_study_1.5.png)
 
 ***
 The figure presents the word co-occurrence network for top 50 words that represent the literature indexed in Web of Science (WoS) database on malaria disease for year 2019. 
@@ -251,7 +251,7 @@ The figure presents the word co-occurrence network for top 50 words that represe
 
 ### Network Text Analysis of Documents using Textnets in R
 
-![Text Network (©2021 Lamba and Madhusdhan - all rights reserved)](images\\case_study_2.png)
+![Text Network (©2021 Lamba and Madhusdhan - all rights reserved)](~/flexboard/images/case_study_2.png)
 
 
 ***
@@ -269,7 +269,7 @@ The figure represents the 22 clusters/communities of 238 words (nodes) which wer
 
 ### Predictive Modeling of Documents using RapidMiner
 
-![Screenshot of evaluation result (©2020 Cadernos BAD, all rights reserved – reprinted under Creative Commons CC BY license, published in Lamba and Madhusudhan (2020))](images/8a.5.png)
+![Screenshot of evaluation result (©2020 Cadernos BAD, all rights reserved – reprinted under Creative Commons CC BY license, published in Lamba and Madhusudhan (2020))](~/flexboard/images/8a.5.png)
 
 ***
 The screenshot shows the evaluation results for library science ETDs in the PQDT Global database.  
