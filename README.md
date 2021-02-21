@@ -45,5 +45,7 @@ the analysis:
 ### Licenses
 
 **Text and figures :** ©2021 Lamba and Madhusdhan - all rights reserved, unless stated otherwise.
+
 **Code :** [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+
 **Data :** [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
