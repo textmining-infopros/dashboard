@@ -32,8 +32,6 @@ the analysis:
     BinderHub on [mybinder.org](https://mybinder.org/):
     
       - Click
-        **Jupyter+R**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=Case_Study_9.ipynb) to launch an                           interactive Jupyter notebook session in your web browser.
-      - Click
         **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?urlpath=rstudio)
         to launch an interactive RStudio session in your web browser.
 
