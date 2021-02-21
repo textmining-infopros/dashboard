@@ -36,8 +36,10 @@ the analysis:
         to launch an interactive RStudio session in your web browser.
         
        - Click
+        This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code.
         **RMarkdown**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=flexdashboard_R.Rmd)
         to launch an interactive RStudio session in your web browser.
+        
 
    - **Limitations of Binder**
         1. The server has limited memory so you cannot load large datasets or run big computations.
