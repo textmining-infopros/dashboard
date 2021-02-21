@@ -37,8 +37,8 @@ the analysis:
         
        - Click
         **RMarkdown**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=flexdashboard_R.Rmd)
-        to launch an interactive [R Markdown](http://rmarkdown.rstudio.com) Notebook session in your web browser. When you execute code within the         
-        notebook, the results appear beneath the code.
+        to launch an interactive [R Markdown](http://rmarkdown.rstudio.com) Notebook session in your web browser. When you execute code within the notebook, the results 
+        appear beneath the code.
         
 
    - **Limitations of Binder**
