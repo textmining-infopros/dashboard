@@ -7,14 +7,7 @@ Manika Lamba and Margam Madhusudhan (2021) Text Mining: An Uncharted Territory f
 Please cite this compendium as: xxxxxxx
 
 # Contents
-The compendium contains the data, code, and notebook associated with the case study. This case study is further divided into 7A, and 7B. 7A case study used RapidMiner, and 7B case study used R programming language to perform sentiment analysis. It is organized as follows:
-
-  - The `data.csv` file contains the data. The same dataset was used for both the case studies.
-    - The `negative_book_reviews.csv` file contains the supplementary data associated with 7B case study.
-    - The `neutral_book_reviews.csv` file contains the supplementary data associated with 7B case study.
-    - The `positive_book_reviews.csv` file contains the supplementary data associated with 7B case study.
-  - The `sentiment_analysis.R` file contatins the R code for 7B case study.
-  - The `Case_Study_7B.ipynb` file contatins the Jupyter notebook for 7B case study.
+The compendium contains the code associated with the case study. The `flexboard_R.Rmd` file contains the R code for the case study.
 
 # How to download or install
 There are several ways to use the compendium’s contents and reproduce
@@ -36,7 +29,7 @@ the analysis:
         to launch an interactive [RStudio](https://rstudio.com/) session in your web browser.
         
        - Click
-        **Jupyter+RMarkdown**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=flexdashboard_R.Rmd) to launch an interactive [Jupyter Notebook](https://jupyter.org/) session in your web browser using [R (https://cloud.r-project.org/index.html) kernel to execute [R Markdown](http://rmarkdown.rstudio.com) Notebook session in your web browser. When you execute code within the notebook, the results appear beneath the code.
+        **Jupyter+RMarkdown**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=flexdashboard_R.Rmd) to launch an interactive [Jupyter Notebook](https://jupyter.org/) session in your web browser using [R](https://cloud.r-project.org/index.html) kernel to execute [R Markdown](http://rmarkdown.rstudio.com) Notebook session in your web browser. When you execute code within the notebook, the results appear beneath the code.
         
 
    - **Limitations of Binder**
