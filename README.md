@@ -21,7 +21,7 @@ There are several ways to use the compendium’s contents and reproduce
 the analysis:
 
   - **Download the compendium as a zip archive** from this [GitHub
-    repository](https://github.com/textmining-utl/chapter9/archive/master.zip).
+    repository](https://github.com/textmining-utl/chapter9/archive/main.zip).
     
       - After unpacking the downloaded zip archive, you can explore the
         files on your computer.
@@ -32,9 +32,9 @@ the analysis:
     BinderHub on [mybinder.org](https://mybinder.org/):
     
       - Click
-        **Jupyter+R**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/master?filepath=Case_Study_9.ipynb) to launch an                           interactive Jupyter notebook session in your web browser.
+        **Jupyter+R**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=Case_Study_9.ipynb) to launch an                           interactive Jupyter notebook session in your web browser.
       - Click
-        **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/master?urlpath=rstudio)
+        **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?urlpath=rstudio)
         to launch an interactive RStudio session in your web browser.
 
    - **Limitations of Binder**
