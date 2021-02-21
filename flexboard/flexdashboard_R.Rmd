@@ -49,53 +49,7 @@ The dendogram presents the hierarichal clustering of documents using the ward me
 
 ### Determine the number of K for clustering using Elbow Method
 
-```{r}
-#Load libraries
-library(readr)
-library(proxy)
-library(RTextTools)
-library(fpc)
-library(wordcloud)
-library(cluster)
-library(tm)
-library(stringi)
-library(textmineR)
-library(factoextra)
-library(ggplot2)
-
-#Load dataset from the github
-data <- read.csv("clustering_sample_data.csv")
-
-#Avoid invalid multiple string error with tolower()
-data[,sapply(data,is.character)] <- sapply(
-     data[,sapply(data,is.character)],
-     iconv,"WINDOWS-1252","UTF-8")
-
-#Create Document Term Matrix
-dtm <- CreateDtm(doc_vec = data$Abstract,
-                 doc_names = data$S.No.,
-                 ngram_window = c(1,2),
-                 stopword_vec = c(stopwords::stopwords("en"),
-                                  stopwords::stopwords(source = 'smart')),
-                 lower = TRUE, 
-                 remove_punctuation = TRUE,
-                 remove_numbers = TRUE,
-                 verbose = FALSE,
-                 cpus = 2)
-
-#Construct matrix of term counts to get IDF vector
-tf_mat <- TermDocFreq(dtm)
-
-#TF-IDF
-tfidf <- t(dtm[ , tf_mat$term ]) * tf_mat$idf
-tfidf <- t(tfidf)
-
-#Convert TF-IDF matrix to standard R matrix
-m <- as.matrix(tfidf)
-
-#Determine the number of K for clustering
-fviz_nbclust(m, kmeans, method = "wss") + geom_vline(xintercept = 5, linetype = 2) + labs(subtitle = "Elbow Method")
-```
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_1.png)
 
 ***
 For clustering in R, elbow method was used to determine the number of clusters.
@@ -103,14 +57,7 @@ For clustering in R, elbow method was used to determine the number of clusters.
 
 ### Visualizing distance matrices 
 
-```{r}
-#Compute Distance Matrix
-require(stats)
-res.dist <- dist(x=m, method = "euclidean")
-
-#Visualizing distance matrices
-fviz_dist(res.dist)
-```
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_2.png)
 
 ***
 Euclidean distance method was used to determine the distance between the documents. 
@@ -118,34 +65,14 @@ Euclidean distance method was used to determine the distance between the documen
 
 ### Agglomerative hierarchical clustering
 
-```{r}
-# Agglomerative hierarchical clustering
-require(stats)
-res.hc <- hclust(d = res.dist, 
-                 method = "ward.D")
-
-#Coloring Dendogram
-require(factorextra)
-require(ggsci)
-fviz_dend(x=res.hc, cex = 0.8, lwd = 0.8, k=5, rect = TRUE, k_colors = "jco", rect_border = "jco", rect_fill = TRUE, ggtheme = theme_void())
-
-```
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_3.png)
 
 ***
 Hierarchical clustering with dendrograms is another way to visualise the distance between the documents. 
 
 ### Circular Dendogram
 
-```{r}
-#Different types of dendogram
-fviz_dend(res.hc, cex = 0.8, lwd = 0.8, k= 4,
-          rect = TRUE,
-          k_colors = "jco",
-          rect_border = "jco",
-          rect_fill = TRUE,
-          type = "circular",
-          repel = TRUE)
-```
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_4.png)
 
 ***
 Circular dendogram is yet another way to visualise the distance between the documents. 
@@ -153,15 +80,7 @@ Circular dendogram is yet another way to visualise the distance between the docu
 
 ### Phylogenic Dendogram
 
-```{r}
-fviz_dend(res.hc, cex = 0.8, lwd = 0.8, k= 4,
-          rect = TRUE,
-          k_colors = "jco",
-          rect_border = "jco",
-          rect_fill = TRUE,
-          type = "phylogenic",
-          repel = TRUE)
-```
+![©2021 Lamba and Madhusdhan - all rights reserved](~/flexboard/images/case_study_5.png)
 
 ***
 Phylogenic structure is another way of visualizing the same results with different perspective according to your research problem and dataset.
