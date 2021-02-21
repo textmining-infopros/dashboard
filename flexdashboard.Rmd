@@ -13,12 +13,6 @@ About
 This storyboard presents the results of all the 12 case studies performed in the book, "Text Mining: An Uncharted Territory for Librarians". The numbers 1A, 1B, 4B and so on, indicate the case study for that particular chapter and the letter represents the analysis from different tools, for instance, 1A shows the results from Chapter 1 for clustering using Orange tool and 1B shows the results from Chapter 1 for clustering using R. To know more about the case studies, and the methodology used to get the results, kindly read the book available on Springer. 
 
 
-
-
-
-
-
-
 For this storyboard: ©2021 Lamba and Madhusdhan - all rights reserved, unless stated otherwise.
 
 
