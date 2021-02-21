@@ -32,10 +32,10 @@ the analysis:
         **Jupyter+RMarkdown**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=flexdashboard_R.Rmd) to launch an interactive [Jupyter Notebook](https://jupyter.org/) session in your web browser using [R](https://cloud.r-project.org/index.html) kernel to execute [R Markdown](http://rmarkdown.rstudio.com) Notebook session in your web browser. When you execute code within the notebook, the results appear beneath the code.
         
 
-   - **Limitations of Binder**
-        1. The server has limited memory so you cannot load large datasets or run big computations.
-        2. Binder is meant for interactive and ephemeral interactive coding so an instance will die after 10 minutes of inactivity.
-        3. An instance cannot be kept alive for more than 12 hours.
+       - **Limitations of Binder**
+          1. The server has limited memory so you cannot load large datasets or run big computations.
+          2. Binder is meant for interactive and ephemeral interactive coding so an instance will die after 10 minutes of inactivity.
+          3. An instance cannot be kept alive for more than 12 hours.
 
 ### Licenses
 
