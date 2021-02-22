@@ -25,11 +25,11 @@ the analysis:
     BinderHub on [mybinder.org](https://mybinder.org/):
     
       - Click
-        **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?urlpath=rstudio)
+        **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/dashboard/main?urlpath=rstudio)
         to launch an interactive [RStudio](https://rstudio.com/) session in your web browser.
         
        - Click
-        **Jupyter+RMarkdown**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter9/main?filepath=flexdashboard_R.Rmd) to launch an interactive [Jupyter Notebook](https://jupyter.org/) session in your web browser using [R](https://cloud.r-project.org/index.html) kernel to execute [R Markdown](http://rmarkdown.rstudio.com) Notebook session in your web browser. When you execute code within the notebook, the results appear beneath the code.
+        **Jupyter+RMarkdown**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/dashboard/main?filepath=flexdashboard_R.Rmd) to launch an interactive [Jupyter Notebook](https://jupyter.org/) session in your web browser using [R](https://cloud.r-project.org/index.html) kernel to execute [R Markdown](http://rmarkdown.rstudio.com) Notebook session in your web browser. When you execute code within the notebook, the results appear beneath the code.
         
 
        - **Limitations of Binder**
