@@ -9,7 +9,7 @@ Please cite this compendium as: xxxxxxx
 # Contents
 The compendium contains the code associated with the case study. The `flexboard_R.Rmd` file contains the R code for the case study.
 
-### Open the dashboard is active at this [link](https://textmining-utl.github.io/dashboard/)
+### The dashboard is active at this [link](https://textmining-utl.github.io/dashboard/)
 
 # How to download or install
 There are several ways to use the compendium’s contents and reproduce
