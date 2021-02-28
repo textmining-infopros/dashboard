@@ -3,7 +3,6 @@ title: "Text Mining: An Uncharted Territory for Librarians"
 output: 
   flexdashboard::flex_dashboard:
     storyboard: true
-    runtime: shiny
     theme: cerulean
 ---
 
@@ -58,6 +57,8 @@ gt()
 ------------------------------------------------------------------------
 
 **Reproduce the analysis in the cloud** without having to install any software. The computational environment used by the authors runs using [BinderHub](https://mybinder.org/). Click the hyperlink to open an interactive virtual [RStudio](https://rstudio.com/) environment for a hands-on practice for the case studies that used R programming language.
+
+**In the virtual environment, open the `.R` or `.Rmd` file containing the `R` code for the process. **
 
 ### Virtual Jupyter Notebook
 
