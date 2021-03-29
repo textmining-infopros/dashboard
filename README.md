@@ -27,7 +27,7 @@ the analysis:
     BinderHub on [mybinder.org](https://mybinder.org/):
     
       - Click
-        **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/textmining-utl/dashboard/master?urlpath=rstudio)
+        **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/textmining-utl/dashboard/main?urlpath=rstudio)
         to launch an interactive [RStudio](https://rstudio.com/) session in your web browser.
         
        - Click
