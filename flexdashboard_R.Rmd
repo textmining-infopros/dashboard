@@ -1,5 +1,5 @@
 ---
-title: "Text Mining: An Uncharted Territory for Librarians"
+title: "Text Mining for Information Professionals"
 output: 
   flexdashboard::flex_dashboard:
     storyboard: true
