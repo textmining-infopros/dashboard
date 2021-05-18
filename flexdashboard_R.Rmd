@@ -3,7 +3,7 @@ title: "Text Mining for Information Professionals"
 output: 
   flexdashboard::flex_dashboard:
     storyboard: true
-    theme: cerulean
+    theme: spacelab
 ---
 
 ```{r setup, include=FALSE}
@@ -14,17 +14,19 @@ library(flexdashboard)
 
 ### Introduction
 
-#### This storyboard presents the ***results*** of 13 **case studies** performed in the book, **"Text Mining: An Uncharted Territory for Librarians"**. To know more about the case studies, and the methodology used to get the results, kindly read the book available on Springer. For this storyboard: *©2021 Lamba and Madhusdhan - all rights reserved, unless stated otherwise*. 
+#### This storyboard presents the ***results*** of 13 **case studies** performed in the book, **"Text Mining for Information Professionals: An Uncharted Territory"**.
+
+#### To know more about the case studies, and the methodology used to get the results, download the book at SpringerNature. To cite this storyboard use: *©2021 Lamba and Madhusdhan - all rights reserved, unless stated otherwise*.
 
 #### *`Click on the hyperlink in the figure legend to open the article/book associated with the citation.`*
 
 #### **Important Websites Links**:
 
--   Buy the Book from Springer Website
+-   Buy the Book from SpringerNature Website
 
--   Book Website
+-   [Book Website](https://textmining-infopros.github.io)
 
--   Github Repositories of the Chapters Containing the Data, Code and Notebook for the Case Studies
+-   [Github Repositories of the Chapters Containing the Data, Code and Notebook for the Case Studies](https://github.com/textmining-infopros)
 
 -   Table of Contents
 
@@ -56,9 +58,9 @@ gt()
 
 ------------------------------------------------------------------------
 
-**Reproduce the analysis in the cloud** without having to install any software. The computational environment used by the authors runs using [BinderHub](https://mybinder.org/). Click the hyperlink to open an interactive virtual [RStudio](https://rstudio.com/) environment for a hands-on practice for the case studies that used R programming language. In the virtual environment, open the `.R` file to run the code. 
+**Reproduce the analysis in the cloud** without having to install any software. The computational environment used by the authors runs using [BinderHub](https://mybinder.org/). Click the hyperlink to open an interactive virtual [RStudio](https://rstudio.com/) environment for a hands-on practice for the case studies that used R programming language. In the virtual environment, open the `.R` file to run the code.
 
-**In the virtual environment, open the `.R` or `.Rmd` file containing the `R` code for the process. **
+**In the virtual environment, open the `.R` or `.Rmd` file containing the `R` code for the process.**
 
 ### Virtual Jupyter Notebook
 
@@ -179,7 +181,7 @@ The table shows the topics assigned to the corpus of ETDs.
 
 # 4C {.storyboard}
 
-### Method 1: Plotting Top Words using *stm* 
+### Method 1: Plotting Top Words using *stm*
 
 ![©2021 Lamba and Madhusdhan - all rights reserved](case_study_4c_1.png)
 
@@ -187,7 +189,7 @@ The table shows the topics assigned to the corpus of ETDs.
 
 The figure shows the topics which were identified using *Structural Topic Modeling (STM).*
 
-### Method 2: Plotting MAP Histogram using *stm* 
+### Method 2: Plotting MAP Histogram using *stm*
 
 ![©2021 Lamba and Madhusdhan - all rights reserved](case_study_4c_2.png)
 
@@ -231,7 +233,7 @@ The figure shows correlation between the topics using a network graph.
 
 # 5A {.storyboard}
 
-### Network Text Analysis of Documents using *bibliometrix* 
+### Network Text Analysis of Documents using *bibliometrix*
 
 ![Word Co-Occurrence Network (©2021 Lamba and Madhusdhan - all rights reserved)](case_study_1.5.png)
 
@@ -335,7 +337,7 @@ The figure shows the confusion matrix for the SVM predictive model.
 
 ### Make Dashboard in `R`
 
-![Screenshot of the dashboard summarizing the case studies' results from **Text Mining: An Uncharted Territory for Librarians** book (©2021 Lamba and Madhusdhan - all rights reserved)](dashboard.png)
+![Screenshot of the dashboard summarizing the case studies' results from **Text Mining for Information Professionals: An Uncharted Territory** book (©2021 Lamba and Madhusdhan - all rights reserved)](dashboard.png)
 
 ------------------------------------------------------------------------
 
