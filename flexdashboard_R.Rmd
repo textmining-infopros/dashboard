@@ -335,7 +335,7 @@ The figure shows the confusion matrix for the SVM predictive model.
 
 # 9A {.storyboard}
 
-### Make Dashboard in `R`
+### Build a Dashboard in `R`
 
 ![Screenshot of the dashboard summarizing the case studies' results from **Text Mining for Information Professionals: An Uncharted Territory** book (©2021 Lamba and Madhusdhan - all rights reserved)](dashboard.png)
 
