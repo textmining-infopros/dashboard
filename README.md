@@ -43,6 +43,6 @@ the analysis:
 
 **Text and figures :** ©2021 Lamba and Madhusdhan - all rights reserved, unless stated otherwise.
 
-**Code :** [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+**Code :** MIT License
 
-**Data :** [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+**Data :** MIT License
