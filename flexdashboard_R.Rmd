@@ -14,23 +14,61 @@ library(flexdashboard)
 
 ### Introduction
 
-#### This storyboard presents the ***results*** of 13 **case studies** performed in the book, **"Text Mining for Information Professionals: An Uncharted Territory"**.
+![](cover_lamba.jpg)
 
-#### To know more about the case studies, and the methodology used to get the results, download the book at SpringerNature. To cite this storyboard use: *©2021 Lamba and Madhusdhan - all rights reserved, unless stated otherwise*.
+------------------------------------------------------------------------
 
-#### *`Click on the hyperlink in the figure legend to open the article/book associated with the citation.`*
+This storyboard summaries the visualization for **13 case studies** performed in the book, [**"Text Mining for Information Professionals: An Uncharted Territory"**](https://www.springer.com/in/book/9783030850845). To know more about the case studies, and the methodology used to get the results, download the book from [SpringerNature](https://www.springer.com/in/book/9783030850845). To cite this storyboard use: ***©2021 Lamba and Madhusdhan - all rights reserved*****,** unless stated otherwise.
 
-#### **Important Websites Links**:
+*`Click on the hyperlink in the figure legend to open the article associated with the citation.`*
 
--   Buy the Book from SpringerNature Website
+### Contents
 
--   [Book Website](https://textmining-infopros.github.io)
+#### <br/>
 
--   [Github Repositories of the Chapters Containing the Data, Code and Notebook for the Case Studies](https://github.com/textmining-infopros)
+#### **Table of Contents**
 
--   Table of Contents
+-   [1A Clustering of Documents using Orange](https://github.com/textmining-infopros/chapter1)
 
--   Appendixes
+-   [1B Clustering of Documents using R](https://github.com/textmining-infopros/chapter1)
+
+-   [4A Topic Modeling of Documents using Topic-Modeling-Tool](https://github.com/textmining-infopros/chapter4)
+
+-   [4B Topic Modeling of Documents using RapidMiner](https://github.com/textmining-infopros/chapter4)
+
+-   [4C Topic Modeling of Documents using R](https://github.com/textmining-infopros/chapter4)
+
+-   [5A Network Text Analysis of Documents using *bibliometrix* package of R](https://github.com/textmining-infopros/chapter5)
+
+-   [5B Network Text Analysis of Documents using *textnets* package of R](https://github.com/textmining-infopros/chapter5)
+
+-   [6A Burst Detection of Documents using Sci2](https://github.com/textmining-infopros/chapter6)
+
+-   [6B Burst Detection of Documents using R](https://github.com/textmining-infopros/chapter6)
+
+-   [7A Sentiment Analysis of Documents using RapidMiner](https://github.com/textmining-infopros/chapter7)
+
+-   [7B Sentiment Analysis of Documents using R](https://github.com/textmining-infopros/chapter7)
+
+-   [8A Predictive Modeling of Documents using RapidMiner](https://github.com/textmining-infopros/chapter8)
+
+-   [9A Build a Dashboard using R](https://github.com/textmining-infopros/dashboard)
+
+<br/>
+
+#### **Important Links**:
+
+-   [Author's Book Website](https://textmining-infopros.github.io)
+
+-   [Github Account with Reproducible Research Compendium](https://github.com/textmining-infopros)
+
+-   [Appendix A: Online Repositories Available for Text Mining](https://github.com/textmining-infopros/Appendix-A)
+
+-   [Appendix B: Language Corpora Available for Text Mining](https://github.com/textmining-infopros/Appendix-B)
+
+-   [Appendix C: Text Data and Mining Licensing Conditions](https://github.com/textmining-infopros/Appendix-C)
+
+-   [Curated Datasets: Contains some of the additional datasets which are in open-access and can be used to practice or teach text mining](https://github.com/textmining-infopros/Curated-Datasets)
 
 ### Virtual RStudio Server
 
@@ -40,12 +78,12 @@ library(tidyverse)
 
 df <- tibble(
            Case_Study = c("1B", "4C", "5B", "6B", "7B", "9A"),
-           Title = c("Clustering of Documents using R", "Topic Modeling of Documents using R", "Network Text Analysis of Documents using Textnets package of R", "Burst Detection of Documents using R", "Sentiment Analysis of Documents using R", "To Make a Dashboard using R"),
+           Title = c("Clustering of Documents using R", "Topic Modeling of Documents using R", "Network Text Analysis of Documents using Textnets package of R", "Burst Detection of Documents using R", "Sentiment Analysis of Documents using R", "Build a Dashboard using R"),
            Virtual_RStudio_Server = c(
-            "http://mybinder.org/v2/gh/textmining-utl/chapter1/master?urlpath=rstudio", "http://mybinder.org/v2/gh/textmining-utl/chapter4/master?urlpath=rstudio",
- "http://mybinder.org/v2/gh/textmining-utl/chapter5/master?urlpath=rstudio",
- "http://mybinder.org/v2/gh/textmining-utl/chapter6/master?urlpath=rstudio",
- "http://mybinder.org/v2/gh/textmining-utl/chapter7/master?urlpath=rstudio", "http://mybinder.org/v2/gh/textmining-utl/dashboard/master?urlpath=rstudio"),
+            "http://mybinder.org/v2/gh/textmining-infopros/chapter1/master?urlpath=rstudio", "http://mybinder.org/v2/gh/textmining-infopros/chapter4/master?urlpath=rstudio",
+ "http://mybinder.org/v2/gh/textmining-infopros/chapter5/master?urlpath=rstudio",
+ "http://mybinder.org/v2/gh/textmining-infopros/chapter6/master?urlpath=rstudio",
+ "http://mybinder.org/v2/gh/textmining-infopros/chapter7/master?urlpath=rstudio", "http://mybinder.org/v2/gh/textmining-infopros/dashboard/master?urlpath=rstudio"),
 )
 
 df %>%
@@ -71,12 +109,12 @@ library(tidyverse)
 
 df <- tibble(
            Case_Study = c("1B", "4C", "5B", "6B", "7B", "9A"),
-           Title = c("Clustering of Documents using R", "Topic Modeling of Documents using R", "Network Text Analysis of Documents using Textnets package of R", "Burst Detection of Documents using R", "Sentiment Analysis of Documents using R", "To Make a Dashboard using R" ),
+           Title = c("Clustering of Documents using R", "Topic Modeling of Documents using R", "Network Text Analysis of Documents using Textnets package of R", "Burst Detection of Documents using R", "Sentiment Analysis of Documents using R", "Build a Dashboard using R" ),
            Virtual_Jupyter_Notebook = c(
-            "http://mybinder.org/v2/gh/textmining-utl/chapter1/master?filepath=Case_Study_1B.ipynb", "http://mybinder.org/v2/gh/textmining-utl/chapter4/master?filepath=Case_Study_4C.ipynb",
- "http://mybinder.org/v2/gh/textmining-utl/chapter5/master?filepath=Case_Study_5B.ipynb",
- "http://mybinder.org/v2/gh/textmining-utl/chapter6/master?filepath=Case_Study_6B.ipynb",
- "http://mybinder.org/v2/gh/textmining-utl/chapter7/master?filepath=Case_Study_7B.ipynb", "http://mybinder.org/v2/gh/textmining-utl/dashboard/main?filepath=flexdashboard_R.Rmd")
+            "http://mybinder.org/v2/gh/textmining-infopros/chapter1/master?filepath=Case_Study_1B.ipynb", "http://mybinder.org/v2/gh/textmining-infopros/chapter4/master?filepath=Case_Study_4C.ipynb",
+ "http://mybinder.org/v2/gh/textmining-infopros/chapter5/master?filepath=Case_Study_5B.ipynb",
+ "http://mybinder.org/v2/gh/textmining-infopros/chapter6/master?filepath=Case_Study_6B.ipynb",
+ "http://mybinder.org/v2/gh/textmining-infopros/chapter7/master?filepath=Case_Study_7B.ipynb", "http://mybinder.org/v2/gh/textmining-infopros/dashboard/main?filepath=flexdashboard_R.Rmd")
 )
 
 df %>%
@@ -343,7 +381,7 @@ The figure shows the confusion matrix for the SVM predictive model.
 
 The storyboard consists of three important sections:
 
-1.  **Storyboard**: It summaries the visualization for a specific case study. For this case study 12 different storyboards were prepared to summarize the results from all the case studies;
+1.  **Storyboard**: It summaries the visualization for a specific case study. For this case study 13 different storyboards were prepared to summarize the results from all the case studies;
 
 2.  **Frame**: It shows different visualizations from a specific case study and divide it into different sub-sections; and
 
