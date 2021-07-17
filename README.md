@@ -1,11 +1,11 @@
 # Case Study: Build a Dashboard using R
-[![DOI](https://zenodo.org/badge/326466642.svg)](https://zenodo.org/badge/latestdoi/326466642)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5111093.svg)](https://doi.org/10.5281/zenodo.5111093)
 
 This repository contains a reproducible research compendium for the case study used in the book: 
 Manika Lamba and Margam Madhusudhan (2021) Text Mining for Information Professionals: An Uncharted Territory, SpringerNature.
 
 # How to cite
-Please cite this compendium as: Lamba, Manika, & Madhusudhan, Margam. (2021). Build a Dashboard using R (Version 1.1). http://doi.org/10.5281/zenodo.5090246
+Please cite this compendium as: Manika Lamba, & Madhusudhan, Margam. (2021). Build a Dashboard using R (Version v1.0). http://doi.org/10.5281/zenodo.5111093
 
 # Contents
 The compendium contains the code associated with the case study used in Chapter 9. The `flexboard_R.Rmd` file contains the R code for the case study.
