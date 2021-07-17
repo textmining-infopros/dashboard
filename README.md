@@ -8,7 +8,7 @@ Manika Lamba and Margam Madhusudhan (2021) Text Mining for Information Professio
 Please cite this compendium as: Lamba, Manika, & Madhusudhan, Margam. (2021). Build a Dashboard using R (Version 1.1). http://doi.org/10.5281/zenodo.5090246
 
 # Contents
-The compendium contains the code associated with the case study. The `flexboard_R.Rmd` file contains the R code for the case study.
+The compendium contains the code associated with the case study used in Chapter 9. The `flexboard_R.Rmd` file contains the R code for the case study.
 
 ### Open the dashboard using this [link](https://textmining-infopros.github.io/dashboard/)
 
