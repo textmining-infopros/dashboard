@@ -14,7 +14,9 @@ Please cite this compendium as: Manika Lamba, & Madhusudhan, Margam. (2021). Bui
 # Contents
 The compendium contains the code associated with the case study used in Chapter 9. The `flexboard_R.Rmd` file contains the R code for the case study.
 
-### Open the dashboard using this [link](https://textmining-infopros.github.io/dashboard/)
+# Dashboard 
+
+Open the dashboard using this [Link](https://textmining-infopros.github.io/dashboard/)
 
 # How to Download or Install
 There are several ways to use the compendium’s contents and reproduce
