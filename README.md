@@ -1,5 +1,7 @@
 # Case Study: Build a Dashboard using R [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5111093.svg)](https://doi.org/10.5281/zenodo.5111093)
 
+<img src="https://github.com/textmining-infopros/dashboard/blob/main/hex-dashboard.png" width="350" height="400">
+
 This repository contains a reproducible research compendium for the case study used in the book -- Manika Lamba and Margam Madhusudhan (2021) Text Mining for Information Professionals: An Uncharted Territory, SpringerNature.
 
 🔭 [Springer Website](https://www.springer.com/in/book/9783030850845)
