@@ -49,7 +49,7 @@ the analysis:
 
 # Licenses
 
-**Text and figures :** ©2021 Lamba and Madhusdhan - all rights reserved, unless stated otherwise.
+**Text and figures :** ©2021 Lamba and Madhusudhan - all rights reserved, unless stated otherwise.
 
 **Code :** MIT License
 
