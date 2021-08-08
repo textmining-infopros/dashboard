@@ -18,7 +18,7 @@ library(flexdashboard)
 
 ------------------------------------------------------------------------
 
-This storyboard summaries the visualizations for **13 case studies** performed in the book, [**"Text Mining for Information Professionals: An Uncharted Territory"**](https://www.springer.com/in/book/9783030850845). To know more about the case studies, and the methodology used to get the results, download the book from [SpringerNature](https://www.springer.com/in/book/9783030850845). To cite this storyboard use: ***©2021 Lamba and Madhusdhan - all rights reserved*****,** unless stated otherwise.
+This storyboard summaries the visualizations for **13 case studies** performed in the book, [**"Text Mining for Information Professionals: An Uncharted Territory"**](https://www.springer.com/in/book/9783030850845). To know more about the case studies, and the methodology used to get the results, download the book from [SpringerNature](https://www.springer.com/in/book/9783030850845). To cite this storyboard use: ***©2021 Lamba and Madhusudhan - all rights reserved*****,** unless stated otherwise.
 
 *`Click on the hyperlink in the figure legend to open the article associated with the citation.`*
 
@@ -133,7 +133,7 @@ gt()
 
 ### Heatmap Showing Distances Between Documents
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_study_1a.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_study_1a.png)
 
 ------------------------------------------------------------------------
 
@@ -141,7 +141,7 @@ The heatmap plot shows the distances between the documents.
 
 ### Clustered Heatmap Showing Distances Between Documents
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_study_1.2.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_study_1.2.png)
 
 ------------------------------------------------------------------------
 
@@ -149,7 +149,7 @@ The clustered heatmap plot shows another way to visualize the distances between 
 
 ### Dendogram Showing Hierarchical Clustering of Documents
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_study_1.3.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_study_1.3.png)
 
 ------------------------------------------------------------------------
 
@@ -159,7 +159,7 @@ The dendogram presents the hierarichal clustering of documents using the ward me
 
 ### Determine the Number of K for Clustering using Elbow Method
 
-![©2021 Lamba and Madhusdhan - all rights reserved](1.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](1.png)
 
 ------------------------------------------------------------------------
 
@@ -167,7 +167,7 @@ For clustering in R, elbow method was used to determine the number of clusters.
 
 ### Visualizing Distance Matrices
 
-![©2021 Lamba and Madhusdhan - all rights reserved](2.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](2.png)
 
 ------------------------------------------------------------------------
 
@@ -175,7 +175,7 @@ Euclidean distance method was used to determine the distance between the documen
 
 ### Agglomerative Hierarchical Clustering
 
-![©2021 Lamba and Madhusdhan - all rights reserved](3.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](3.png)
 
 ------------------------------------------------------------------------
 
@@ -183,7 +183,7 @@ Hierarchical clustering with dendrograms is another way to visualise the distanc
 
 ### Circular Dendogram
 
-![©2021 Lamba and Madhusdhan - all rights reserved](4.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](4.png)
 
 ------------------------------------------------------------------------
 
@@ -191,7 +191,7 @@ Circular dendogram is yet another way to visualise the distance between the docu
 
 ### Phylogenic Dendogram
 
-![©2021 Lamba and Madhusdhan - all rights reserved](5.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](5.png)
 
 ------------------------------------------------------------------------
 
@@ -221,7 +221,7 @@ The table shows the topics assigned to the corpus of ETDs.
 
 ### Method 1: Plotting Top Words using *stm*
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_study_4c_1.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_study_4c_1.png)
 
 ------------------------------------------------------------------------
 
@@ -229,7 +229,7 @@ The figure shows the topics which were identified using *Structural Topic Modeli
 
 ### Method 2: Plotting MAP Histogram using *stm*
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_study_4c_2.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_study_4c_2.png)
 
 ------------------------------------------------------------------------
 
@@ -237,7 +237,7 @@ The figure shows another way of representing the topic modeling results.
 
 ### Method 3: Visualizing Topic Model using *ggplot2*
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_study_4c_6.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_study_4c_6.png)
 
 ------------------------------------------------------------------------
 
@@ -245,7 +245,7 @@ The figure shows another way of representing the topic modeling results.
 
 ### Method 4: Interactive Visualization
 
-[![©2021 Lamba and Madhusdhan - all rights reserved](case_study_4c_8.png)](https://textmining-utl.github.io/chapter4/)
+[![©2021 Lamba and Madhusudhan - all rights reserved](case_study_4c_8.png)](https://textmining-utl.github.io/chapter4/)
 
 ------------------------------------------------------------------------
 
@@ -255,7 +255,7 @@ The figure shows an interactive way of representing the topic modeling results.
 
 ### Understanding Topics through Top 5 Representative Documents
 
-![©2021 Lamba and Madhusdhan - all rights reserved](4c_9.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](4c_9.png)
 
 ------------------------------------------------------------------------
 
@@ -263,7 +263,7 @@ The table presents the result for top five representative ETDs for the modeled t
 
 ### Topic Correlation
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_study_4c_7.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_study_4c_7.png)
 
 ------------------------------------------------------------------------
 
@@ -273,7 +273,7 @@ The figure shows correlation between the topics using a network graph.
 
 ### Network Text Analysis of Documents using *bibliometrix*
 
-![Word Co-Occurrence Network (©2021 Lamba and Madhusdhan - all rights reserved)](case_study_1.5.png)
+![Word Co-Occurrence Network (©2021 Lamba and Madhusudhan - all rights reserved)](case_study_1.5.png)
 
 ------------------------------------------------------------------------
 
@@ -283,7 +283,7 @@ The figure presents the word co-occurrence network for top words.
 
 ### Network Text Analysis of Documents using *textnets*
 
-![Text Network (©2021 Lamba and Madhusdhan - all rights reserved)](case_study_2.png)
+![Text Network (©2021 Lamba and Madhusudhan - all rights reserved)](case_study_2.png)
 
 ------------------------------------------------------------------------
 
@@ -293,7 +293,7 @@ The figure represents the clusters/communities of words (nodes).
 
 ### Horizontal Line Graph
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_9.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_9.png)
 
 ------------------------------------------------------------------------
 
@@ -303,7 +303,7 @@ The figure shows the horizontal line graphs for bursts.
 
 ### Accumulation of Submissions
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_1.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_1.png)
 
 ------------------------------------------------------------------------
 
@@ -311,7 +311,7 @@ The figure shows the accumulation of preprints in the aRxiv database.
 
 ### Bursts in Submissions
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_2.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_2.png)
 
 ------------------------------------------------------------------------
 
@@ -339,7 +339,7 @@ The figure represents the percentage comparison between subjectivities for 20 di
 
 ### Percentage-Based Means
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_6.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_6.png)
 
 ------------------------------------------------------------------------
 
@@ -347,7 +347,7 @@ The figure shows the percentage-based means for amazon book reviews.
 
 ### Discrete Cosine Transformation (DCT)
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_7.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_7.png)
 
 ------------------------------------------------------------------------
 
@@ -355,7 +355,7 @@ The figure shows the discrete cosine transformation for amazon book reviews.
 
 ### Emotion Graph
 
-![©2021 Lamba and Madhusdhan - all rights reserved](case_8.png)
+![©2021 Lamba and Madhusudhan - all rights reserved](case_8.png)
 
 ------------------------------------------------------------------------
 
@@ -375,7 +375,7 @@ The figure shows the confusion matrix for the SVM predictive model.
 
 ### Build a Dashboard in `R`
 
-![Screenshot of the dashboard summarizing the case studies' results from **Text Mining for Information Professionals: An Uncharted Territory** book (©2021 Lamba and Madhusdhan - all rights reserved)](dashboard.png)
+![Screenshot of the dashboard summarizing the case studies' results from **Text Mining for Information Professionals: An Uncharted Territory** book (©2021 Lamba and Madhusudhan - all rights reserved)](dashboard.png)
 
 ------------------------------------------------------------------------
 
