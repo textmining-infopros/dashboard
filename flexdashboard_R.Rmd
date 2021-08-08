@@ -18,7 +18,7 @@ library(flexdashboard)
 
 ------------------------------------------------------------------------
 
-This storyboard summaries the visualization for **13 case studies** performed in the book, [**"Text Mining for Information Professionals: An Uncharted Territory"**](https://www.springer.com/in/book/9783030850845). To know more about the case studies, and the methodology used to get the results, download the book from [SpringerNature](https://www.springer.com/in/book/9783030850845). To cite this storyboard use: ***©2021 Lamba and Madhusdhan - all rights reserved*****,** unless stated otherwise.
+This storyboard summaries the visualizations for **13 case studies** performed in the book, [**"Text Mining for Information Professionals: An Uncharted Territory"**](https://www.springer.com/in/book/9783030850845). To know more about the case studies, and the methodology used to get the results, download the book from [SpringerNature](https://www.springer.com/in/book/9783030850845). To cite this storyboard use: ***©2021 Lamba and Madhusdhan - all rights reserved*****,** unless stated otherwise.
 
 *`Click on the hyperlink in the figure legend to open the article associated with the citation.`*
 
@@ -96,7 +96,7 @@ gt()
 
 ------------------------------------------------------------------------
 
-**Reproduce the analysis in the cloud** without having to install any software. The computational environment used by the authors runs using [BinderHub](https://mybinder.org/). Click the hyperlink to open an interactive virtual [RStudio](https://rstudio.com/) environment for a hands-on practice for the case studies that used R programming language. In the virtual environment, open the `.R` file to run the code.
+**Reproduce the analysis in the cloud** without having to install any software. The computational environment used by the authors runs using [BinderHub](https://mybinder.org/). Click the hyperlink to open an interactive virtual [RStudio](https://rstudio.com/) environment for hands-on practice for the case studies that used R programming language. In the virtual environment, open the `.R` file to run the code.
 
 **In the virtual environment, open the `.R` or `.Rmd` file containing the `R` code for the process.**
 
@@ -127,7 +127,7 @@ gt()
 
 ------------------------------------------------------------------------
 
-**Reproduce the analysis in the cloud** without having to install any software. The computational environment used by the authors runs using [BinderHub](https://mybinder.org/). Click the hyperlink to open an interactive virtual [Jupyter Notebook](https://jupyter.org/) for a hands-on practice for the case studies that used R programming language.
+**Reproduce the analysis in the cloud** without having to install any software. The computational environment used by the authors runs using [BinderHub](https://mybinder.org/). Click the hyperlink to open an interactive virtual [Jupyter Notebook](https://jupyter.org/) for hands-on practice for the case studies that used R programming language.
 
 # 1A {.storyboard}
 
