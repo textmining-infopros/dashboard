@@ -1,0 +1,11 @@
+name: textmining-infoprosCHAPTER9-binderized
+channels:
+  - conda-forge
+  - bioconda
+  - r
+dependencies:
+  - r-base>=4
+  - r-irkernel>=1.1
+  - r-flexdashboard
+  - r-gt
+  - r-tidyverse
