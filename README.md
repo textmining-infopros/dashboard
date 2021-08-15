@@ -1,4 +1,4 @@
-# Case Study: Build a Dashboard using R [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5111093.svg)](https://doi.org/10.5281/zenodo.5111093)
+# Case Study: Build a Dashboard using R [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5203304.svg)](https://doi.org/10.5281/zenodo.5203304)
 
 <img src="https://github.com/textmining-infopros/dashboard/blob/main/hex-dashboard.png" width="350" height="400">
 
