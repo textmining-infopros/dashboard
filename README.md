@@ -51,6 +51,4 @@ the analysis:
 
 **Text and figures :** ©2021 Lamba and Madhusudhan - all rights reserved, unless stated otherwise.
 
-**Code :** MIT License
-
-**Data :** MIT License
+**Data**, **Code**, **Hex-sticker :** MIT License
