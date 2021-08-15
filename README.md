@@ -11,7 +11,7 @@ This repository contains a reproducible research compendium for the case study u
 📫 For corrections/suggestions reach me at lambamanika07@gmail.com or create an issue [here](https://github.com/textmining-infopros/dashboard/issues)
 
 # How to Cite
-Please cite this compendium as: Lamba, Manika & Madhusudhan, Margam. (2021). Build a Dashboard using R (Version v1.0). http://doi.org/10.5281/zenodo.5111093
+Please cite this compendium as: **Lamba, Manika & Madhusudhan, Margam. (2021). Build a Dashboard using R (Version 1.2). https://doi.org/10.5281/zenodo.5203304**
 
 # Contents
 The compendium contains the code associated with the case study used in Chapter 9. The `flexboard_R.Rmd` file contains the R code for the case study.
