@@ -83,7 +83,7 @@ df <- tibble(
             "http://mybinder.org/v2/gh/textmining-infopros/chapter1/master?urlpath=rstudio", "http://mybinder.org/v2/gh/textmining-infopros/chapter4/master?urlpath=rstudio",
  "http://mybinder.org/v2/gh/textmining-infopros/chapter5/master?urlpath=rstudio",
  "http://mybinder.org/v2/gh/textmining-infopros/chapter6/master?urlpath=rstudio",
- "http://mybinder.org/v2/gh/textmining-infopros/chapter7/master?urlpath=rstudio", "http://mybinder.org/v2/gh/textmining-infopros/dashboard/master?urlpath=rstudio"),
+ "http://mybinder.org/v2/gh/textmining-infopros/chapter7/master?urlpath=rstudio", "https://mybinder.org/v2/gh/textmining-infopros/dashboard/main?urlpath=rstudio"),
 )
 
 df %>%
