@@ -245,7 +245,7 @@ The figure shows another way of representing the topic modeling results.
 
 ### Method 4: Interactive Visualization
 
-[![©2021 Lamba and Madhusudhan - all rights reserved](case_study_4c_8.png)](https://textmining-utl.github.io/chapter4/)
+[![©2021 Lamba and Madhusudhan - all rights reserved](case_study_4c_8.png)](https://textmining-infopros.github.io/chapter4/)
 
 ------------------------------------------------------------------------
 
